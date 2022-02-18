@@ -1,5 +1,4 @@
 def main():
-
     a = float(input("Enter the first decimal value: "))
     b = float(input("Enter the second decimal value: "))
     c = float(input("Enter the third decimal value: "))
@@ -10,6 +9,7 @@ def main():
 
     print(f"The float mean of the four values entered is: {mean_float}")
     print(f"The int mean of the four values entered is: {mean_int}")
+
 
 if __name__ == "__main__":
     main()

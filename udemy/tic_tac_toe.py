@@ -51,8 +51,7 @@ while not gameWin and game_round < 10:
         print('Player 2: Where do you want to go?')
         move = str(input())
         theBoard[move] = playerO
-    if checkWin(theBoard):
-        gameWin = True
+    gameWin = checkWin(theBoard)
     game_round += 1
 
 if current_player == -1:
